@@ -2,13 +2,26 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <title>caneler clicker</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico|Neucha"/> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="clicker.js"></script>
+
+ 
 </head>
 <body>
-  ...
-  <!-- Le reste du contenu -->
-  ...
+
+  <div id="fond" >
+	<center>
+		<h1 class = "titre"> canele-clicker </h1> 
+	</center>
+	<center>
+		<img src="mes_caneles.jpg" id = "image"/><br>
+	</center>
+	vous avez <b id = "canele">0</b> canele.<br>
+	<button id = "bouton" type ="button" onclick = "add()"> cuisiner </button>
+	<button id = "acheter_four" type ="button" onclick = "buy_furnace()" disabled> acheter un four ( 25 canele )</button>
+  </div>
 </body>
 </html>
